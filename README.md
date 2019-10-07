@@ -1,0 +1,22 @@
+# Kube-scheduler
+
+[![Build Status](https://travis-ci.org/electrocucaracha/kube-scheduler.png)][1]
+[![Go Report Card](https://goreportcard.com/badge/github.com/electrocucaracha/kube-scheduler
+)][2]
+[![GoDoc](https://godoc.org/github.com/electrocucaracha/kube-scheduler?status.svg)][3]
+
+This project was created for didactic purposes with the goal to
+understand the workflow and components of the Kubernetes
+scheduler and the process to create custom scheduler. It doesn't
+pretend to replace the official `kube-scheduler` project.
+
+[![Sequence diagram](https://sequencediagram.org/index.html?presentationMode=readOnly#initialData=C4S2BsFMAIGVgIYCdjQNYFcBGkC0BnAYwAtIATDKJaACgAUB7cEQgT2gGEGA7AMxADmAWQQAHAJQAoSaOShCIWd1QBbBCG4y5LRQmXQxorSh1LUhFWWPzd+oqSuyTCs9F4JCwBklbXTe1AZRUB58PxcA6EJvSGk1DVwAPkMALgA5SAB3WBJySkgkLhU1bjIaKXjuAB5cXFSAMmisJAQAOiKSsgBvAF9JD1AANwRgGErJSqTUgFEAD0hCDFHy-tFRKbWUpAxuDr0yqUMkoJDufBSANQRmMhHIFaPEk5BQlK4+QRXn0OPgl7OUgBBNbgVgAFQYXz+Pye0IBhCQkDuHGYkGU+AeaxquG+APq9jyVEM0Q+AnaPH4Al6-U8IGGowMa1W62SmwASjtMSyCWR0lkVjyku5PN5WHzMu9KQAxAaigW5MjY4VeHwpeqSwQYFoq6kDOl3aA8ySCxI8lIaMCMZhsKVIBgqDXCMTyhxC2WqjiIu62+2OlZkJG0+kwI3K0VJaKI8UcDD4LwqHIOfJIB5Bg1hnySDOsbGRyBqxZx+2JwkFakBvXBtzu3w8pU1tWO3VphlGk1mjKZH0OimfKQVlshhXM7Fm+olihUZtDA2GaDMpJmjncF3kRcKlIAdXUwCl3g4HlIsFY3EIq7I64cKR5+QA8tx7uIgA)][4]
+
+## License
+
+Apache-2.0
+
+[1]: https://travis-ci.org/electrocucaracha/kube-scheduler
+[2]: https://goreportcard.com/report/github.com/electrocucaracha/kube-scheduler
+[3]: https://godoc.org/github.com/electrocucaracha/kube-scheduler
+[4]: https://sequencediagram.org/index.html#initialData=C4S2BsFMAIGVgIYCdjQNYFcBGkC0BnAYwAtIATDKJaACgAUB7cEQgT2gGEGA7AMxADmAWQQAHAJQAoSaOShCIWd1QBbBCG4y5LRQmXQxorSh1LUhFWWPzd+oqSuyTCs9F4JCwBklbXTe1AZRUB58PxcA6EJvSGk1DVwAPkMALgA5SAB3WBJySkgkLhU1bjIaKXjuAB5cXFSAMmisJAQAOiKSsgBvAF9JD1AANwRgGErJSqTUgFEAD0hCDFHy-tFRKbWUpAxuDr0yqUMkoJDufBSANQRmMhHIFaPEk5BQlK4+QRXn0OPgl7OUgBBNbgVgAFQYXz+Pye0IBhCQkDuHGYkGU+AeaxquG+APq9jyVEM0Q+AnaPH4Al6-U8IGGowMa1W62SmwASjtMSyCWR0lkVjyku5PN5WHzMu9KQAxAaigW5MjY4VeHwpeqSwQYFoq6kDOl3aA8ySCxI8lIaMCMZhsKVIBgqDXCMTyhxC2WqjiIu62+2OlZkJG0+kwI3K0VJaKI8UcDD4LwqHIOfJIB5Bg1hnySDOsbGRyBqxZx+2JwkFakBvXBtzu3w8pU1tWO3VphlGk1mjKZH0OimfKQVlshhXM7Fm+olihUZtDA2GaDMpJmjncF3kRcKlIAdXUwCl3g4HlIsFY3EIq7I64cKR5+QA8tx7uIgA
